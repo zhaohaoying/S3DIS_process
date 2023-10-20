@@ -11,7 +11,7 @@ This is code for processing the [S3DIS](http://buildingparser.stanford.edu/image
 
 Unzip Stanford3dDataset_v1.2_Aligned_Version.zip
 
-'''
+```
 |-- Area_1
 |   |-- conferenceRoom_1: 
 |   |   |-- Annotations
@@ -30,15 +30,15 @@ Unzip Stanford3dDataset_v1.2_Aligned_Version.zip
 |-- Area_4
 |-- Area_5
 |-- Area_6
-'''
+```
 
 
 
 ## 1. Setup:
-'''
+```
 cd utils/cpp_wrappers
 bash utils/cpp_wrappers/compile_wrappers.sh
-'''
+```
 
 
 The grid sampling method written in C++ code needs to be packaged into a Python library.
@@ -46,9 +46,9 @@ The grid_subsampling package is installed in the utils/cpp_wrappers/cpp_subsampl
 
 ## 2. Generate the processed files
 
-'''
+```
 python prepare_S3DIS.py
-'''
+```
 
 (1) Aggregate all the points in the room.
 (2) Reduce the number of points using grid sampling method.
@@ -58,6 +58,6 @@ python prepare_S3DIS.py
 
 ## 3. Visualize the point clouds using Open3D.
 
-'''
+```
 python draw.py
-'''
+```
