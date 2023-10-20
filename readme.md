@@ -34,7 +34,7 @@ Unzip Stanford3dDataset_v1.2_Aligned_Version.zip
 
 
 
-## 1. Setup:
+## 1. Setup
 ```
 cd utils/cpp_wrappers
 bash utils/cpp_wrappers/compile_wrappers.sh
@@ -50,13 +50,13 @@ The grid_subsampling package is installed in the utils/cpp_wrappers/cpp_subsampl
 python prepare_S3DIS.py
 ```
 
-(1) Aggregate all the points in the room.  
-(2) Reduce the number of points using grid sampling method.  
-(3) Generate the KDTrees.  
-(4) Record the index of each point.  
+- Aggregate all the points in the room.  
+- Reduce the number of points using grid sampling method.  
+- Generate the KDTrees.  
+- Record the index of each point.  
 
 
-## 3. Visualize the point clouds using Open3D.
+## 3. Visualize the point clouds using Open3D
 
 ```
 python draw.py
