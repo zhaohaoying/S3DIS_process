@@ -6,12 +6,12 @@ This is code for processing the [S3DIS](http://buildingparser.stanford.edu/image
 - 13 classes: Ceiling, Floor, Wall, Beam, Column, Window, Door, Table, Chair, Sofa, Bookcase, Board and CLutter
 - 11 scenes: Office, Conference Room, Hallway, Auditorium, Open Space, Lobby, Lounge, Pantry, Copy Room, Storage and WC
 
-![The S3DIS Dataset](images/Area_1-6.png)
+![The S3DIS Dataset](images/area1-6.png)
 
 
 Unzip Stanford3dDataset_v1.2_Aligned_Version.zip
 
-
+'''
 |-- Area_1
 |   |-- conferenceRoom_1: 
 |   |   |-- Annotations
@@ -30,7 +30,7 @@ Unzip Stanford3dDataset_v1.2_Aligned_Version.zip
 |-- Area_4
 |-- Area_5
 |-- Area_6
-
+'''
 
 
 
