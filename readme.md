@@ -50,10 +50,10 @@ The grid_subsampling package is installed in the utils/cpp_wrappers/cpp_subsampl
 python prepare_S3DIS.py
 ```
 
-(1) Aggregate all the points in the room.
-(2) Reduce the number of points using grid sampling method.
-(3) Generate the KDTrees.
-(4) Record the index of each point.
+(1) Aggregate all the points in the room.  
+(2) Reduce the number of points using grid sampling method.  
+(3) Generate the KDTrees.  
+(4) Record the index of each point.  
 
 
 ## 3. Visualize the point clouds using Open3D.
